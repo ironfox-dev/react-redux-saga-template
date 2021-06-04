@@ -1,0 +1,22 @@
+.calendar-main-section {
+    padding-left: 15%;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: 100vh;
+    background-color: #F7F7FA;
+}
+
+@media only screen and (max-width: 1500px) {
+    .calendar-main-section {
+        padding-left: 7%;
+    }
+}
+
+@media only screen and (max-width: 1335px) {
+    .calendar-main-section {
+        padding-left: 0px;
+        margin-top: 125px;
+        flex-direction: column;
+    }
+}

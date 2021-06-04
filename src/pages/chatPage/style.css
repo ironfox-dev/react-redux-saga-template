@@ -1,0 +1,94 @@
+.chat-page-container {
+    background-color: #f7f7fa;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.main-section {
+    padding-left: 15%;
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+}
+
+.chat-page-section {
+    flex: 1;
+    background-color: white;
+    height: 1080px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50px 0px 0px 50px;
+    box-shadow: -1px 3px 6px #0000001A;
+}
+
+.chat-section-part {
+    margin-left: 25%;
+    flex: 1;
+}
+
+.chatting-section {
+    width: 60%;
+    padding: 25px;
+}
+
+.chatting-user-info-section {
+    width: 40%;
+    background-color: #F7F7FA;
+    box-shadow: -1px 0px 6px #0000001A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 1200px) {
+    .chat-user-info-name {
+        font-size: 30px;
+    }
+
+    .chat-user-info-row-title {
+        font-size: 16px;
+    }
+
+    .chat-user-info-row-description {
+        font-size: 16px;
+    }
+
+    .medication-row-text {
+        font-size: 16px;
+    }
+
+}
+
+@media only screen and (max-width: 1082px) {
+    .chat-page-section {
+        flex-direction: column;
+    }
+
+    .chat-section-part {
+        margin-left: 35%;
+    }
+
+    .chatting-section {
+        width: 100%;
+    }
+
+    .chatting-user-info-section {
+        width: 100%;
+        box-shadow: none;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+    .chat-section-part {
+        width: 100%;
+        margin: 0px;
+        margin-bottom: 40px;
+    }
+
+    .chat-page-section {
+        height: auto;
+        border-radius: 0px;
+        box-shadow: none;
+    }
+}
